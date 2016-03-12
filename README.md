@@ -76,10 +76,6 @@ Another Swift plugin that allow add mask to UITextField
     <th>Mask</th>
   </tr>
   <tr>
-    <td>SSN</td>
-    <td>NNN-NN-NNNN</td>
-  </tr>
-  <tr>
     <td>Telephone</td>
     <td>+NN (0NN) NNNNN-NNNN</td>
   </tr>
