@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NNN-NN-NNNN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zxG-DS-GLz" customClass="SwiftMaskField" customModule="SMFDemo" customModuleProvider="target">
-                                <rect key="frame" x="16" y="137" width="116.5" height="30"/>
+                                <rect key="frame" x="40" y="137" width="295" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -37,13 +37,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SSN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KyB-yJ-NMH">
-                                <rect key="frame" x="16" y="113" width="33" height="21"/>
+                                <rect key="frame" x="40" y="113" width="33" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.97466754913330078" green="0.27593982219696045" blue="0.0350998155772686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UUU-UUU-UUUU-UUUU" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jsz-IV-6ct" customClass="SwiftMaskField" customModule="SMFDemo" customModuleProvider="target">
-                                <rect key="frame" x="16" y="202" width="167.5" height="30"/>
+                                <rect key="frame" x="40" y="202" width="295" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -51,13 +51,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="License Key" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMH-pp-mCJ">
-                                <rect key="frame" x="16" y="178" width="86.5" height="21"/>
+                                <rect key="frame" x="40" y="178" width="86.5" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.97466754913330078" green="0.27593982219696045" blue="0.0350998155772686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="+NN (NNN) NNN-NNNN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3UX-QZ-beC" customClass="SwiftMaskField" customModule="SMFDemo" customModuleProvider="target">
-                                <rect key="frame" x="16" y="267" width="163" height="30"/>
+                                <rect key="frame" x="40" y="267" width="295" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -65,13 +65,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telephone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5Z-OX-X4a">
-                                <rect key="frame" x="16" y="243" width="73" height="21"/>
+                                <rect key="frame" x="40" y="243" width="73" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.97466754913330078" green="0.27593982219696045" blue="0.0350998155772686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NNN.NNN.NNN-NN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nfs-EO-aDq" customClass="SwiftMaskField" customModule="SMFDemo" customModuleProvider="target">
-                                <rect key="frame" x="16" y="361" width="138.5" height="30"/>
+                                <rect key="frame" x="40" y="361" width="295" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -79,13 +79,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CPF" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5e-xS-pO6">
-                                <rect key="frame" x="16" y="337" width="31" height="21"/>
+                                <rect key="frame" x="40" y="337" width="31" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.97466754913330078" green="0.27593982219696045" blue="0.0350998155772686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NN.NNN.NNN-%" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yHs-Qk-VEZ" customClass="SwiftMaskField" customModule="SMFDemo" customModuleProvider="target">
-                                <rect key="frame" x="16" y="426" width="121" height="30"/>
+                                <rect key="frame" x="40" y="426" width="295" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -93,13 +93,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xxo-fq-Rgv">
-                                <rect key="frame" x="16" y="402" width="23.5" height="21"/>
+                                <rect key="frame" x="40" y="402" width="23.5" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.97466754913330078" green="0.27593982219696045" blue="0.0350998155772686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NNNNN-NNN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PJT-Tc-Ioj" customClass="SwiftMaskField" customModule="SMFDemo" customModuleProvider="target">
-                                <rect key="frame" x="16" y="491" width="102" height="30"/>
+                                <rect key="frame" x="40" y="491" width="295" height="30"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -107,7 +107,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CEP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uly-oR-lZZ">
-                                <rect key="frame" x="16" y="467" width="32" height="21"/>
+                                <rect key="frame" x="40" y="467" width="32" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.97466754913330078" green="0.27593982219696045" blue="0.0350998155772686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -121,33 +121,39 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Xxo-fq-Rgv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="30q-56-w4N"/>
-                            <constraint firstItem="u5Z-OX-X4a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="34a-C9-ECK"/>
+                            <constraint firstAttribute="trailing" secondItem="zxG-DS-GLz" secondAttribute="trailing" constant="40" id="0zK-TM-AnC"/>
+                            <constraint firstItem="Xxo-fq-Rgv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="30q-56-w4N"/>
+                            <constraint firstItem="u5Z-OX-X4a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="34a-C9-ECK"/>
                             <constraint firstItem="Jsz-IV-6ct" firstAttribute="top" secondItem="fMH-pp-mCJ" secondAttribute="bottom" constant="3" id="48a-Hw-bp9"/>
-                            <constraint firstItem="yHs-Qk-VEZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="8Ik-Cg-ptY"/>
+                            <constraint firstAttribute="trailing" secondItem="yHs-Qk-VEZ" secondAttribute="trailing" constant="40" id="4rO-eT-lyL"/>
+                            <constraint firstItem="yHs-Qk-VEZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="8Ik-Cg-ptY"/>
                             <constraint firstItem="Uly-oR-lZZ" firstAttribute="top" secondItem="yHs-Qk-VEZ" secondAttribute="bottom" constant="11" id="BaH-5u-0xy"/>
                             <constraint firstItem="yG1-KV-hPU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CJs-CH-f31"/>
                             <constraint firstItem="Xxo-fq-Rgv" firstAttribute="top" secondItem="Nfs-EO-aDq" secondAttribute="bottom" constant="11" id="Csm-bA-vr2"/>
                             <constraint firstItem="PJT-Tc-Ioj" firstAttribute="top" secondItem="Uly-oR-lZZ" secondAttribute="bottom" constant="3" id="DE8-aN-VDd"/>
-                            <constraint firstItem="N5e-xS-pO6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Hve-dF-Jb7"/>
-                            <constraint firstItem="fMH-pp-mCJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="KeE-KF-psu"/>
-                            <constraint firstItem="3UX-QZ-beC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="LO6-5d-3Oq"/>
+                            <constraint firstAttribute="trailing" secondItem="Nfs-EO-aDq" secondAttribute="trailing" constant="40" id="Dlz-uU-Muy"/>
+                            <constraint firstItem="N5e-xS-pO6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Hve-dF-Jb7"/>
+                            <constraint firstAttribute="trailing" secondItem="PJT-Tc-Ioj" secondAttribute="trailing" constant="40" id="ILG-XK-4hm"/>
+                            <constraint firstItem="fMH-pp-mCJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="KeE-KF-psu"/>
+                            <constraint firstItem="3UX-QZ-beC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="LO6-5d-3Oq"/>
                             <constraint firstItem="Nfs-EO-aDq" firstAttribute="top" secondItem="N5e-xS-pO6" secondAttribute="bottom" constant="3" id="Ofs-EA-qob"/>
                             <constraint firstItem="fMH-pp-mCJ" firstAttribute="top" secondItem="zxG-DS-GLz" secondAttribute="bottom" constant="11" id="QKD-qr-mcj"/>
-                            <constraint firstItem="KyB-yJ-NMH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Qv0-zl-rPT"/>
+                            <constraint firstItem="KyB-yJ-NMH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Qv0-zl-rPT"/>
                             <constraint firstItem="u5Z-OX-X4a" firstAttribute="top" secondItem="Jsz-IV-6ct" secondAttribute="bottom" constant="11" id="R0G-s8-LoE"/>
-                            <constraint firstItem="Uly-oR-lZZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Ryy-aR-7p2"/>
+                            <constraint firstItem="Uly-oR-lZZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Ryy-aR-7p2"/>
                             <constraint firstItem="zxG-DS-GLz" firstAttribute="top" secondItem="KyB-yJ-NMH" secondAttribute="bottom" constant="3" id="V2q-Pr-0xW"/>
                             <constraint firstItem="yG1-KV-hPU" firstAttribute="top" secondItem="3UX-QZ-beC" secondAttribute="bottom" constant="8" id="YFg-9h-ehc"/>
                             <constraint firstItem="N5e-xS-pO6" firstAttribute="top" secondItem="yG1-KV-hPU" secondAttribute="bottom" constant="8" id="alb-45-cuf"/>
-                            <constraint firstItem="zxG-DS-GLz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="e4v-bu-I3W"/>
-                            <constraint firstItem="PJT-Tc-Ioj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="eci-rK-FW5"/>
+                            <constraint firstItem="zxG-DS-GLz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="e4v-bu-I3W"/>
+                            <constraint firstItem="PJT-Tc-Ioj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="eci-rK-FW5"/>
+                            <constraint firstAttribute="trailing" secondItem="Jsz-IV-6ct" secondAttribute="trailing" constant="40" id="ffq-2v-SEf"/>
                             <constraint firstItem="tNB-gH-Lu2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="39" id="iOG-TO-ey5"/>
                             <constraint firstItem="KyB-yJ-NMH" firstAttribute="top" secondItem="tNB-gH-Lu2" secondAttribute="bottom" constant="37" id="m6V-Jn-XmT"/>
                             <constraint firstItem="yHs-Qk-VEZ" firstAttribute="top" secondItem="Xxo-fq-Rgv" secondAttribute="bottom" constant="3" id="mAZ-r2-z6n"/>
-                            <constraint firstItem="Nfs-EO-aDq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="qrx-0u-Nrc"/>
+                            <constraint firstItem="Nfs-EO-aDq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="qrx-0u-Nrc"/>
+                            <constraint firstAttribute="trailing" secondItem="3UX-QZ-beC" secondAttribute="trailing" constant="40" id="u6P-Sv-uEt"/>
                             <constraint firstItem="tNB-gH-Lu2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ybD-Jk-LdM"/>
-                            <constraint firstItem="Jsz-IV-6ct" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="zH6-nI-soO"/>
+                            <constraint firstItem="Jsz-IV-6ct" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="zH6-nI-soO"/>
                             <constraint firstItem="3UX-QZ-beC" firstAttribute="top" secondItem="u5Z-OX-X4a" secondAttribute="bottom" constant="3" id="zsl-24-mdD"/>
                         </constraints>
                     </view>
