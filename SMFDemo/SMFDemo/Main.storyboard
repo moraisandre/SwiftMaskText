@@ -118,6 +118,20 @@
                                 <color key="textColor" red="0.97466754913330078" green="0.27593982219696045" blue="0.0350998155772686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CEP - with IBOutlet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hd-QN-tGo">
+                                <rect key="frame" x="40" y="532" width="136" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.97466754909999997" green="0.27593982220000002" blue="0.035099815579999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NNNNN-NNN" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5JK-0N-coh" customClass="SwiftMaskField" customModule="SMFDemo" customModuleProvider="target">
+                                <rect key="frame" x="40" y="556" width="295" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="mask" value="NNNNN-NNN"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -126,12 +140,14 @@
                             <constraint firstItem="u5Z-OX-X4a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="34a-C9-ECK"/>
                             <constraint firstItem="Jsz-IV-6ct" firstAttribute="top" secondItem="fMH-pp-mCJ" secondAttribute="bottom" constant="3" id="48a-Hw-bp9"/>
                             <constraint firstAttribute="trailing" secondItem="yHs-Qk-VEZ" secondAttribute="trailing" constant="40" id="4rO-eT-lyL"/>
+                            <constraint firstAttribute="trailing" secondItem="5JK-0N-coh" secondAttribute="trailing" constant="40" id="7vI-MU-N9C"/>
                             <constraint firstItem="yHs-Qk-VEZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="8Ik-Cg-ptY"/>
                             <constraint firstItem="Uly-oR-lZZ" firstAttribute="top" secondItem="yHs-Qk-VEZ" secondAttribute="bottom" constant="11" id="BaH-5u-0xy"/>
                             <constraint firstItem="yG1-KV-hPU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CJs-CH-f31"/>
                             <constraint firstItem="Xxo-fq-Rgv" firstAttribute="top" secondItem="Nfs-EO-aDq" secondAttribute="bottom" constant="11" id="Csm-bA-vr2"/>
                             <constraint firstItem="PJT-Tc-Ioj" firstAttribute="top" secondItem="Uly-oR-lZZ" secondAttribute="bottom" constant="3" id="DE8-aN-VDd"/>
                             <constraint firstAttribute="trailing" secondItem="Nfs-EO-aDq" secondAttribute="trailing" constant="40" id="Dlz-uU-Muy"/>
+                            <constraint firstItem="7Hd-QN-tGo" firstAttribute="top" secondItem="PJT-Tc-Ioj" secondAttribute="bottom" constant="11" id="FDD-Nn-bfF"/>
                             <constraint firstItem="N5e-xS-pO6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Hve-dF-Jb7"/>
                             <constraint firstAttribute="trailing" secondItem="PJT-Tc-Ioj" secondAttribute="trailing" constant="40" id="ILG-XK-4hm"/>
                             <constraint firstItem="fMH-pp-mCJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="KeE-KF-psu"/>
@@ -141,8 +157,10 @@
                             <constraint firstItem="KyB-yJ-NMH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Qv0-zl-rPT"/>
                             <constraint firstItem="u5Z-OX-X4a" firstAttribute="top" secondItem="Jsz-IV-6ct" secondAttribute="bottom" constant="11" id="R0G-s8-LoE"/>
                             <constraint firstItem="Uly-oR-lZZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="Ryy-aR-7p2"/>
+                            <constraint firstItem="7Hd-QN-tGo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="S7f-Vf-1ZP"/>
                             <constraint firstItem="zxG-DS-GLz" firstAttribute="top" secondItem="KyB-yJ-NMH" secondAttribute="bottom" constant="3" id="V2q-Pr-0xW"/>
                             <constraint firstItem="yG1-KV-hPU" firstAttribute="top" secondItem="3UX-QZ-beC" secondAttribute="bottom" constant="8" id="YFg-9h-ehc"/>
+                            <constraint firstItem="5JK-0N-coh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="YtS-tg-6t1"/>
                             <constraint firstItem="N5e-xS-pO6" firstAttribute="top" secondItem="yG1-KV-hPU" secondAttribute="bottom" constant="8" id="alb-45-cuf"/>
                             <constraint firstItem="zxG-DS-GLz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="e4v-bu-I3W"/>
                             <constraint firstItem="PJT-Tc-Ioj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="eci-rK-FW5"/>
@@ -152,6 +170,7 @@
                             <constraint firstItem="yHs-Qk-VEZ" firstAttribute="top" secondItem="Xxo-fq-Rgv" secondAttribute="bottom" constant="3" id="mAZ-r2-z6n"/>
                             <constraint firstItem="Nfs-EO-aDq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="qrx-0u-Nrc"/>
                             <constraint firstAttribute="trailing" secondItem="3UX-QZ-beC" secondAttribute="trailing" constant="40" id="u6P-Sv-uEt"/>
+                            <constraint firstItem="5JK-0N-coh" firstAttribute="top" secondItem="7Hd-QN-tGo" secondAttribute="bottom" constant="3" id="wDo-Ba-HEW"/>
                             <constraint firstItem="tNB-gH-Lu2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ybD-Jk-LdM"/>
                             <constraint firstItem="Jsz-IV-6ct" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="40" id="zH6-nI-soO"/>
                             <constraint firstItem="3UX-QZ-beC" firstAttribute="top" secondItem="u5Z-OX-X4a" secondAttribute="bottom" constant="3" id="zsl-24-mdD"/>
@@ -159,6 +178,9 @@
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="txtCepExample" destination="5JK-0N-coh" id="SAx-Qs-pPJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
