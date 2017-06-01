@@ -7,7 +7,7 @@ Another Swift plugin that allow add mask to UITextField
 <ul>
   <li>'Cos it's simples and fast</li>
   <li>Configuration is through Settings Panel</li>
-  <li>Works with <b>Swift 2.0</b></li>
+  <li>Works with <b>Swift 3.0</b> (Thanks to @andre991) </li>
 </ul>
 <h2>Mask Configuration</h2>
 <h3>Mask Symbols</h3>
