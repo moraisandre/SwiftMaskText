@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D0B05AC1C94668E006C4017"
-               BuildableName = "SMFDemo.app"
-               BlueprintName = "SMFDemo"
-               ReferencedContainer = "container:SMFDemo.xcodeproj">
+               BlueprintIdentifier = "6533DA441EE8706C0053987C"
+               BuildableName = "SwiftMaskText.framework"
+               BlueprintName = "SwiftMaskText"
+               ReferencedContainer = "container:SwiftMaskText.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,37 +32,27 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D0B05C01C94668E006C4017"
-               BuildableName = "SMFDemoTests.xctest"
-               BlueprintName = "SMFDemoTests"
-               ReferencedContainer = "container:SMFDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D0B05CB1C94668E006C4017"
-               BuildableName = "SMFDemoUITests.xctest"
-               BlueprintName = "SMFDemoUITests"
-               ReferencedContainer = "container:SMFDemo.xcodeproj">
+               BlueprintIdentifier = "6533DA4D1EE8706C0053987C"
+               BuildableName = "SwiftMaskTextTests.xctest"
+               BlueprintName = "SwiftMaskTextTests"
+               ReferencedContainer = "container:SwiftMaskText.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D0B05AC1C94668E006C4017"
-            BuildableName = "SMFDemo.app"
-            BlueprintName = "SMFDemo"
-            ReferencedContainer = "container:SMFDemo.xcodeproj">
+            BlueprintIdentifier = "6533DA441EE8706C0053987C"
+            BuildableName = "SwiftMaskText.framework"
+            BlueprintName = "SwiftMaskText"
+            ReferencedContainer = "container:SwiftMaskText.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -71,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D0B05AC1C94668E006C4017"
-            BuildableName = "SMFDemo.app"
-            BlueprintName = "SMFDemo"
-            ReferencedContainer = "container:SMFDemo.xcodeproj">
+            BlueprintIdentifier = "6533DA441EE8706C0053987C"
+            BuildableName = "SwiftMaskText.framework"
+            BlueprintName = "SwiftMaskText"
+            ReferencedContainer = "container:SwiftMaskText.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D0B05AC1C94668E006C4017"
-            BuildableName = "SMFDemo.app"
-            BlueprintName = "SMFDemo"
-            ReferencedContainer = "container:SMFDemo.xcodeproj">
+            BlueprintIdentifier = "6533DA441EE8706C0053987C"
+            BuildableName = "SwiftMaskText.framework"
+            BlueprintName = "SwiftMaskText"
+            ReferencedContainer = "container:SwiftMaskText.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
