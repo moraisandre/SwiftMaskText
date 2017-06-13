@@ -186,11 +186,9 @@ extension SwiftMaskField {
     
     override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
-        //        if (keyPath == "text" && object === self ) {
-        //
-        //            //print(self.text)
-        //
-        //        }
+        if let object = object as? SwiftMaskField, object === self && keyPath == "text"{
+//            print(keyPath)
+        }
     }
 }
 
