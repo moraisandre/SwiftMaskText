@@ -1,6 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name = "SwiftMaskText"
-  spec.version = "1.0.1"
+
+  spec.version = "1.0.2"
 
   spec.homepage = "http://andremorais.com.br/code/swiftmasktext/"
   spec.summary = "A Swift plugin that allow add mask to UITextField."
