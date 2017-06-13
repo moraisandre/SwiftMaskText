@@ -1,6 +1,6 @@
-![Repository Version](https://img.shields.io/badge/tag-1.0.0-blue.svg)
+![Repository Version](https://img.shields.io/badge/tag-1.0.1-blue.svg)
 ![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)
-![Pod Compatible](https://img.shields.io/badge/pod-v1.0.0-orange.svg)
+![Pod Compatible](https://img.shields.io/badge/pod-v1.0.1-orange.svg)
 
 # SwiftMaskText
 Another Swift plugin that allow add mask to UITextField
