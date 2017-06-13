@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => "MIT", :file => "LICENSE" }
 
   spec.ios.deployment_target = '8.0'
-  spec.source       = { :git => "https://github.com/andre991/SwiftMaskText", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/moraisandre/SwiftMaskText", :tag => spec.version }
 
   spec.source_files = 'SwiftMaskText/Source/*.swift'
   spec.module_name  = 'SwiftMaskText'
