@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D646A4B7FE9EB11A9CF9041 /* Pods_SwiftMaskText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D1790BDE4E2C6009AF818A5 /* Pods_SwiftMaskText.framework */; };
 		6533DA4F1EE8706C0053987C /* SwiftMaskText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533DA451EE8706C0053987C /* SwiftMaskText.framework */; };
 		6533DA541EE8706C0053987C /* SwiftMaskTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6533DA531EE8706C0053987C /* SwiftMaskTextTests.swift */; };
 		6533DA561EE8706C0053987C /* SwiftMaskText.h in Headers */ = {isa = PBXBuildFile; fileRef = 6533DA481EE8706C0053987C /* SwiftMaskText.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6533DA6A1EE87BF60053987C /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6533DA681EE87BF60053987C /* StringExtensions.swift */; };
 		6533DA6B1EE87BF60053987C /* SwiftMaskField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6533DA691EE87BF60053987C /* SwiftMaskField.swift */; };
+		9ECE69DD0E66EA1ED22D04DB /* Pods_SwiftMaskTextTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE54BEFCF20F4697B1D5439 /* Pods_SwiftMaskTextTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		048DFFAD96215A774E1BD880 /* Pods-SwiftMaskText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMaskText.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMaskText/Pods-SwiftMaskText.release.xcconfig"; sourceTree = "<group>"; };
+		0BE54BEFCF20F4697B1D5439 /* Pods_SwiftMaskTextTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMaskTextTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		106914ED48D6716DAABDD64E /* Pods-SwiftMaskTextTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMaskTextTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMaskTextTests/Pods-SwiftMaskTextTests.release.xcconfig"; sourceTree = "<group>"; };
 		6533DA451EE8706C0053987C /* SwiftMaskText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMaskText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6533DA481EE8706C0053987C /* SwiftMaskText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMaskText.h; sourceTree = "<group>"; };
 		6533DA491EE8706C0053987C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +38,9 @@
 		6533DA551EE8706C0053987C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6533DA681EE87BF60053987C /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Source/StringExtensions.swift; sourceTree = "<group>"; };
 		6533DA691EE87BF60053987C /* SwiftMaskField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftMaskField.swift; path = Source/SwiftMaskField.swift; sourceTree = "<group>"; };
+		65F5EC7060801DA6C431D894 /* Pods-SwiftMaskText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMaskText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMaskText/Pods-SwiftMaskText.debug.xcconfig"; sourceTree = "<group>"; };
+		9D1790BDE4E2C6009AF818A5 /* Pods_SwiftMaskText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftMaskText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46340CE9F70FD472D34567C /* Pods-SwiftMaskTextTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMaskTextTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMaskTextTests/Pods-SwiftMaskTextTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D646A4B7FE9EB11A9CF9041 /* Pods_SwiftMaskText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6533DA4F1EE8706C0053987C /* SwiftMaskText.framework in Frameworks */,
+				9ECE69DD0E66EA1ED22D04DB /* Pods_SwiftMaskTextTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +70,8 @@
 				6533DA471EE8706C0053987C /* SwiftMaskText */,
 				6533DA521EE8706C0053987C /* SwiftMaskTextTests */,
 				6533DA461EE8706C0053987C /* Products */,
+				F1A1881A4C5F253CFFB54E1D /* Pods */,
+				B723FCAC51A979FBF14F2ADD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +112,26 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
+		B723FCAC51A979FBF14F2ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D1790BDE4E2C6009AF818A5 /* Pods_SwiftMaskText.framework */,
+				0BE54BEFCF20F4697B1D5439 /* Pods_SwiftMaskTextTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A1881A4C5F253CFFB54E1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65F5EC7060801DA6C431D894 /* Pods-SwiftMaskText.debug.xcconfig */,
+				048DFFAD96215A774E1BD880 /* Pods-SwiftMaskText.release.xcconfig */,
+				B46340CE9F70FD472D34567C /* Pods-SwiftMaskTextTests.debug.xcconfig */,
+				106914ED48D6716DAABDD64E /* Pods-SwiftMaskTextTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -118,10 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6533DA591EE8706C0053987C /* Build configuration list for PBXNativeTarget "SwiftMaskText" */;
 			buildPhases = (
+				C7BD1DA62133C15D0CE63C65 /* [CP] Check Pods Manifest.lock */,
 				6533DA401EE8706C0053987C /* Sources */,
 				6533DA411EE8706C0053987C /* Frameworks */,
 				6533DA421EE8706C0053987C /* Headers */,
 				6533DA431EE8706C0053987C /* Resources */,
+				BE5A09B59191D855177BA18A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6533DA5C1EE8706C0053987C /* Build configuration list for PBXNativeTarget "SwiftMaskTextTests" */;
 			buildPhases = (
+				9E77DE2129EDD55DEAB281AC /* [CP] Check Pods Manifest.lock */,
 				6533DA4A1EE8706C0053987C /* Sources */,
 				6533DA4B1EE8706C0053987C /* Frameworks */,
 				6533DA4C1EE8706C0053987C /* Resources */,
+				223520A643F5A79AFE271466 /* [CP] Embed Pods Frameworks */,
+				C62F860071149A0165E3552E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +244,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		223520A643F5A79AFE271466 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMaskTextTests/Pods-SwiftMaskTextTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E77DE2129EDD55DEAB281AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE5A09B59191D855177BA18A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMaskText/Pods-SwiftMaskText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C62F860071149A0165E3552E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftMaskTextTests/Pods-SwiftMaskTextTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BD1DA62133C15D0CE63C65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6533DA401EE8706C0053987C /* Sources */ = {
@@ -340,6 +455,7 @@
 		};
 		6533DA5A1EE8706C0053987C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F5EC7060801DA6C431D894 /* Pods-SwiftMaskText.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -362,6 +478,7 @@
 		};
 		6533DA5B1EE8706C0053987C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048DFFAD96215A774E1BD880 /* Pods-SwiftMaskText.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -383,6 +500,7 @@
 		};
 		6533DA5D1EE8706C0053987C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46340CE9F70FD472D34567C /* Pods-SwiftMaskTextTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X4EYDGL7NV;
@@ -396,6 +514,7 @@
 		};
 		6533DA5E1EE8706C0053987C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106914ED48D6716DAABDD64E /* Pods-SwiftMaskTextTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = X4EYDGL7NV;
