@@ -3,6 +3,7 @@
 //  GitHub: https://github.com/moraisandre/SwiftMaskText
 //
 //  Created by Andre Morais on 3/11/16.
+//  Translated to Swift 3 by: André Santana Ferreira on 31/5/17
 //  Copyright © 2016 Andre Morais. All rights reserved.
 //  Website: http://www.andremorais.com.br
 //

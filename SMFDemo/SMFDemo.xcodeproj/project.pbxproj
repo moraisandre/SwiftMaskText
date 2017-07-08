@@ -12,10 +12,10 @@
 		2D0B05B81C94668E006C4017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B05B71C94668E006C4017 /* Assets.xcassets */; };
 		2D0B05C61C94668E006C4017 /* SMFDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B05C51C94668E006C4017 /* SMFDemoTests.swift */; };
 		2D0B05D11C94668E006C4017 /* SMFDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B05D01C94668E006C4017 /* SMFDemoUITests.swift */; };
-		2D0B05E11C9466C5006C4017 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B05DF1C9466C5006C4017 /* StringExtensions.swift */; };
-		2D0B05E21C9466C5006C4017 /* SwiftMaskField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0B05E01C9466C5006C4017 /* SwiftMaskField.swift */; };
 		2D0B05E51C9466D4006C4017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B05E31C9466D4006C4017 /* LaunchScreen.storyboard */; };
 		2D0B05E61C9466D4006C4017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D0B05E41C9466D4006C4017 /* Main.storyboard */; };
+		2DD547831F10760C00D3FC49 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD547811F10760C00D3FC49 /* StringExtensions.swift */; };
+		2DD547841F10760C00D3FC49 /* SwiftMaskField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD547821F10760C00D3FC49 /* SwiftMaskField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +47,10 @@
 		2D0B05CC1C94668E006C4017 /* SMFDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMFDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0B05D01C94668E006C4017 /* SMFDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMFDemoUITests.swift; sourceTree = "<group>"; };
 		2D0B05D21C94668E006C4017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D0B05DF1C9466C5006C4017 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
-		2D0B05E01C9466C5006C4017 /* SwiftMaskField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMaskField.swift; sourceTree = "<group>"; };
 		2D0B05E31C9466D4006C4017 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D0B05E41C9466D4006C4017 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2DD547811F10760C00D3FC49 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		2DD547821F10760C00D3FC49 /* SwiftMaskField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftMaskField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		2D0B05AF1C94668E006C4017 /* SMFDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2D0B05DE1C9466C5006C4017 /* SwiftMaskField */,
+				2DD547801F10760C00D3FC49 /* SwiftMaskField */,
 				2D0B05B01C94668E006C4017 /* AppDelegate.swift */,
 				2D0B05B21C94668E006C4017 /* ViewController.swift */,
 				2D0B05E31C9466D4006C4017 /* LaunchScreen.storyboard */,
@@ -130,11 +130,11 @@
 			path = SMFDemoUITests;
 			sourceTree = "<group>";
 		};
-		2D0B05DE1C9466C5006C4017 /* SwiftMaskField */ = {
+		2DD547801F10760C00D3FC49 /* SwiftMaskField */ = {
 			isa = PBXGroup;
 			children = (
-				2D0B05E01C9466C5006C4017 /* SwiftMaskField.swift */,
-				2D0B05DF1C9466C5006C4017 /* StringExtensions.swift */,
+				2DD547811F10760C00D3FC49 /* StringExtensions.swift */,
+				2DD547821F10760C00D3FC49 /* SwiftMaskField.swift */,
 			);
 			path = SwiftMaskField;
 			sourceTree = "<group>";
@@ -273,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D0B05E21C9466C5006C4017 /* SwiftMaskField.swift in Sources */,
-				2D0B05E11C9466C5006C4017 /* StringExtensions.swift in Sources */,
+				2DD547841F10760C00D3FC49 /* SwiftMaskField.swift in Sources */,
+				2DD547831F10760C00D3FC49 /* StringExtensions.swift in Sources */,
 				2D0B05B31C94668E006C4017 /* ViewController.swift in Sources */,
 				2D0B05B11C94668E006C4017 /* AppDelegate.swift in Sources */,
 			);

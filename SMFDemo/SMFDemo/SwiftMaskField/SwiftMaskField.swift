@@ -3,18 +3,19 @@
 //  GitHub: https://github.com/moraisandre/SwiftMaskText
 //
 //  Created by Andre Morais on 3/9/16.
+//  Translated to Swift 3 by: André Santana Ferreira on 31/5/17
 //  Copyright © 2016 Andre Morais. All rights reserved.
 //  Website: http://www.andremorais.com.br
 //
 
 import UIKit
 
-class SwiftMaskField: UITextField {
+public class SwiftMaskField: UITextField {
     
     private var _mask: String!
     
     
-    @IBInspectable var maskString: String {
+    @IBInspectable public var maskString: String {
         
         get{
             return _mask
@@ -26,7 +27,7 @@ class SwiftMaskField: UITextField {
         
     }
     
-    func applyFilter(textField: UITextField){
+    public func applyFilter(textField: UITextField){
         
         var index = _mask.startIndex
         var textWithMask:String = ""
@@ -116,7 +117,7 @@ class SwiftMaskField: UITextField {
         self.text = textWithMask
     }
     
-    func isNumber(textToValidate:String) -> Bool{
+    public func isNumber(textToValidate:String) -> Bool{
         
         let num = Int(textToValidate)
         
@@ -127,7 +128,7 @@ class SwiftMaskField: UITextField {
         return false
     }
     
-    func hasSpecialCharacter(searchTerm:String) -> Bool{
+    public func hasSpecialCharacter(searchTerm:String) -> Bool{
         let regex = try!  NSRegularExpression(pattern: ".*[^A-Za-z0-9].*", options: NSRegularExpression.Options())
         
         if regex.firstMatch(in: searchTerm, options: NSRegularExpression.MatchingOptions(), range: NSMakeRange(0, searchTerm.characters.count)) != nil {
@@ -138,7 +139,7 @@ class SwiftMaskField: UITextField {
         
     }
     
-    func removeMaskCharacters( text: String, withMask mask:String) -> String{
+    public func removeMaskCharacters( text: String, withMask mask:String) -> String{
         
         var mask = mask
         var text = text
@@ -155,13 +156,13 @@ class SwiftMaskField: UITextField {
         while(index != mask.endIndex){
             text = text.replacingOccurrences(of: "\(mask[index])", with: "")
             index = mask.index(after: index)
-//            index = index.successor()
+            //            index = index.successor()
         }
         
         return text
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
         
         // Apply the delegate // not needed
@@ -183,13 +184,13 @@ class SwiftMaskField: UITextField {
 
 extension SwiftMaskField {
     
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
-//        if (keyPath == "text" && object === self ) {
-//            
-//            //print(self.text)
-//            
-//        }
+        //        if (keyPath == "text" && object === self ) {
+        //
+        //            //print(self.text)
+        //
+        //        }
     }
 }
 
