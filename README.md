@@ -1,3 +1,7 @@
+![Repository Version](https://img.shields.io/badge/tag-1.0.3-blue.svg)
+![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)
+![Pod Compatible](https://img.shields.io/badge/pod-v1.0.3-orange.svg)
+
 # SwiftMaskText
 Another Swift plugin that allow add mask to UITextField
 
@@ -93,6 +97,17 @@ Another Swift plugin that allow add mask to UITextField
   </tr>
 </table>
 <h2>How to use it?</h2>
+<h4>Using Carthage</h4>
+
+  ```
+  github "moraisandre/SwiftMaskText"
+  ```
+<h4>Using CocoaPods</h4>
+
+  ```
+  pod ‘SwiftMaskText’
+  ```
+<h4>Copy files to your project</h4>
 <ol>
   <li>
     Add the <i>SwiftMaskField</i> folder to your project, it contains 2 files. Be sure that <i>'Copy items if needed'</i> is checked.

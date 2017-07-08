@@ -168,7 +168,7 @@ public class SwiftMaskField: UITextField {
         // Apply the delegate // not needed
         //delegate = self
         
-        addObserver(self, forKeyPath: "text", options: NSKeyValueObservingOptions(), context: nil)
+        //addObserver(self, forKeyPath: "text", options: NSKeyValueObservingOptions(), context: nil)
         
         self.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: UIControlEvents.editingChanged)
     }
@@ -184,14 +184,14 @@ public class SwiftMaskField: UITextField {
 
 extension SwiftMaskField {
     
-    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        
-        //        if (keyPath == "text" && object === self ) {
-        //
-        //            //print(self.text)
-        //
-        //        }
-    }
+//    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+//        
+//        if let object = object as? SwiftMaskField, object === self && keyPath == "text"{
+////            print(keyPath)
+//        }else{
+//            super.observeValue(forKeyPath: keyPath, of: object, change: change, context: context)
+//        }
+//    }
 }
 
 
