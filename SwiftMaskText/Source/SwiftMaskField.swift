@@ -4,6 +4,7 @@
 //
 //  Created by Andre Morais on 3/9/16.
 //  Translated to Swift 3 by: André Santana Ferreira on 31/5/17
+//  Translated to Swift 4 by: André Morais on 04/11/17
 //  Copyright © 2016 Andre Morais. All rights reserved.
 //  Website: http://www.andremorais.com.br
 //
@@ -42,7 +43,7 @@ public class SwiftMaskField: UITextField {
         
         while(index != maskString.endIndex){
             
-            if(i >= text.characters.count){
+            if(i >= text.count){
                 self.text = textWithMask
                 break
             }
@@ -131,7 +132,7 @@ public class SwiftMaskField: UITextField {
     public func hasSpecialCharacter(searchTerm:String) -> Bool{
         let regex = try!  NSRegularExpression(pattern: ".*[^A-Za-z0-9].*", options: NSRegularExpression.Options())
         
-        if regex.firstMatch(in: searchTerm, options: NSRegularExpression.MatchingOptions(), range: NSMakeRange(0, searchTerm.characters.count)) != nil {
+        if regex.firstMatch(in: searchTerm, options: NSRegularExpression.MatchingOptions(), range: NSMakeRange(0, searchTerm.count)) != nil {
             return true
         }
         
@@ -175,7 +176,7 @@ public class SwiftMaskField: UITextField {
     
     
     
-    func textFieldDidChange(textField: UITextField) {
+    @objc func textFieldDidChange(textField: UITextField) {
         //print("textFieldDidChange")
         applyFilter(textField: textField)
     }
