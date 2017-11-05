@@ -80,7 +80,7 @@ Another Swift plugin that allow add mask to UITextField
 ### Author
 *André Morais*
 
-Website: www.andremorais.com.br
+Website: [moraisandre.com/swiftmasktext](http://moraisandre.com/swiftmasktext/)
 
 E-mail: [morais@andremorais.com.br](mailto:morais@andremorais.com.br?Subject=GitHub%20doubt)
 
