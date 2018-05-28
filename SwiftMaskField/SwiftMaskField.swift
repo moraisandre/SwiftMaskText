@@ -42,7 +42,7 @@ public class SwiftMaskField: UITextField {
         
         while(index != maskString.endIndex){
             
-            if(i >= text.characters.count){
+            if(i >= text.count){
                 self.text = textWithMask
                 break
             }
@@ -131,7 +131,7 @@ public class SwiftMaskField: UITextField {
     public func hasSpecialCharacter(searchTerm:String) -> Bool{
         let regex = try!  NSRegularExpression(pattern: ".*[^A-Za-z0-9].*", options: NSRegularExpression.Options())
         
-        if regex.firstMatch(in: searchTerm, options: NSRegularExpression.MatchingOptions(), range: NSMakeRange(0, searchTerm.characters.count)) != nil {
+        if regex.firstMatch(in: searchTerm, options: NSRegularExpression.MatchingOptions(), range: NSMakeRange(0, searchTerm.count)) != nil {
             return true
         }
         
@@ -175,7 +175,7 @@ public class SwiftMaskField: UITextField {
     
     
     
-    func textFieldDidChange(textField: UITextField) {
+    @objc func textFieldDidChange(textField: UITextField) {
         //print("textFieldDidChange")
         applyFilter(textField: textField)
     }
