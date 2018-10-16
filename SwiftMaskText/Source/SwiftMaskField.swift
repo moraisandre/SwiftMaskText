@@ -30,6 +30,10 @@ public class SwiftMaskField: UITextField {
     
     public func applyFilter(textField: UITextField){
         
+        if _mask == nil || _mask.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines) == ""  {
+            return
+        }
+        
         var index = _mask.startIndex
         var textWithMask:String = ""
         var i:Int = 0
