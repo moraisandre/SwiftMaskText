@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SwiftMaskText'
-  spec.version = '1.0.6'
+  spec.version = '1.0.7'
 
   spec.homepage = 'https://github.com/moraisandre/SwiftMaskText'
   spec.summary = 'A Swift plugin that allow add mask to UITextField.'
@@ -54,13 +54,13 @@ Pod::Spec.new do |spec|
   ## How to use it?
   #### Using Carthage
 
-    ```
+    ```sh
     github "moraisandre/SwiftMaskText"
     ```
   #### Using CocoaPods
 
-    ```
-    pod ‘SwiftMaskText’
+    ```sh
+    pod 'SwiftMaskText'
     ```
   #### Copy files to your project
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   ### Author
   *André Morais*
 
-  Website: www.andremorais.com.br
+  Website: www.moraisandre.com
 
   E-mail: [morais@andremorais.com.br](mailto:morais@andremorais.com.br?Subject=GitHub%20doubt)
 
