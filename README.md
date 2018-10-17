@@ -54,13 +54,13 @@ Another Swift plugin that allow add mask to UITextField
 ## How to use it?
 #### Using Carthage
 
-  ```
+  ```sh
   github "moraisandre/SwiftMaskText"
   ```
 #### Using CocoaPods
 
-  ```
-  pod ‘SwiftMaskText’
+  ```sh
+  pod 'SwiftMaskText'
   ```
 #### Copy files to your project
 
