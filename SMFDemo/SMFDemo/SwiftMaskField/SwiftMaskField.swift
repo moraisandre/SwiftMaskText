@@ -11,7 +11,7 @@
 
 import UIKit
 
-public class SwiftMaskField: UITextField {
+open class SwiftMaskField: UITextField {
     
     private var _mask: String!
     
@@ -167,7 +167,7 @@ public class SwiftMaskField: UITextField {
         return text
     }
     
-    override public func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         super.draw(rect)
         
         // Apply the delegate // not needed
@@ -189,7 +189,7 @@ public class SwiftMaskField: UITextField {
 
 extension SwiftMaskField {
     
-    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    override open func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         
         //        if (keyPath == "text" && object === self ) {
         //
