@@ -93,6 +93,7 @@ Pod::Spec.new do |spec|
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.ios.deployment_target = '10.0'
+  spec.tvos.deployment_target = '10.0'
   spec.source       = { :git => 'https://github.com/moraisandre/SwiftMaskText.git', :tag => spec.version }
 
   spec.source_files = 'SwiftMaskText/Source/*.swift'
