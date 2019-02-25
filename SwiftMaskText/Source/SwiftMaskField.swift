@@ -5,6 +5,7 @@
 //  Created by Andre Morais on 3/9/16.
 //  Translated to Swift 3 by: André Santana Ferreira on 31/5/17
 //  Translated to Swift 4 by: André Morais on 04/11/17
+//  Translated to Swift 4.2 by: Rafael Gustavo Gali on 07/01/19
 //  Copyright © 2018 Andre Morais. All rights reserved.
 //  Website: http://www.moraisandre.com
 //
@@ -170,7 +171,7 @@ open class SwiftMaskField: UITextField {
         
         addObserver(self, forKeyPath: "text", options: NSKeyValueObservingOptions(), context: nil)
         
-        self.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: UIControlEvents.editingChanged)
+        self.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: UIControl.Event.editingChanged)
     }
     
     @objc func textFieldDidChange(textField: UITextField) {
