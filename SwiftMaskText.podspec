@@ -1,7 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SwiftMaskText'
   spec.version = '1.1.0'
-
   spec.homepage = 'https://github.com/moraisandre/SwiftMaskText'
   spec.summary = 'A Swift plugin that allow add mask to UITextField.'
 
@@ -15,7 +14,7 @@ Pod::Spec.new do |spec|
   ### Why to use it?
     * Because it's simples and fast
     * Configuration is through Settings Panel
-    * Works with Swift 4.0
+    * Works with Swift 4.2
 
   ## Mask Configuration
   ### Mask Symbols
