@@ -91,6 +91,7 @@ Pod::Spec.new do |spec|
   spec.author = 'Andre Morais'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
+  spec.swift_version = '5.0'
   spec.ios.deployment_target = '10.0'
   spec.tvos.deployment_target = '10.0'
   spec.source       = { :git => 'https://github.com/moraisandre/SwiftMaskText.git', :tag => spec.version }
