@@ -66,7 +66,7 @@ open class SwiftMaskField: UITextField {
                 if (isNumber(textToValidate: text[i])) {
                     break
                 }
-                textWithMask = textWithMask + text[i].uppercased()
+                textWithMask = textWithMask + String(text[i]).uppercased()
                 i += 1
             } else if("\(maskString[index])" == "c") { // Only Characters a-z, lower case only
                 if(hasSpecialCharacter(searchTerm: text[i])) {
@@ -76,7 +76,7 @@ open class SwiftMaskField: UITextField {
                 if (isNumber(textToValidate: text[i])) {
                     break
                 }
-                textWithMask = textWithMask + text[i].lowercased()
+                textWithMask = textWithMask + String(text[i]).lowercased()
                 i += 1
             } else if("\(maskString[index])" == "X") { // Only Characters a-Z
                 if(hasSpecialCharacter(searchTerm: text[i])) {
@@ -99,14 +99,14 @@ open class SwiftMaskField: UITextField {
                     break
                 }
                 
-                textWithMask = textWithMask + text[i].uppercased()
+                textWithMask = textWithMask + String(text[i]).uppercased()
                 i += 1
             } else if("\(maskString[index])" == "u") { // Only Characters a-z + Numbers, lower case only
                 if(hasSpecialCharacter(searchTerm: text[i])) {
                     break
                 }
                 
-                textWithMask = textWithMask + text[i].lowercased()
+                textWithMask = textWithMask + String(text[i]).lowercased()
                 i += 1
             } else if("\(maskString[index])" == "*") { // Any Character
                 textWithMask = textWithMask + text[i]
