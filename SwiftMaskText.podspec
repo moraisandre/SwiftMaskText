@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SwiftMaskText'
-  spec.version = '1.1.1'
+  spec.version = '2.0.0'
   spec.homepage = 'https://github.com/moraisandre/SwiftMaskText'
   spec.summary = 'A Swift plugin that allow add mask to UITextField.'
 
@@ -91,8 +91,9 @@ Pod::Spec.new do |spec|
   spec.author = 'Andre Morais'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
 
-  spec.ios.deployment_target = '9.0'
-  spec.tvos.deployment_target = '9.0'
+  spec.swift_version = '5.0'
+  spec.ios.deployment_target = '10.0'
+  spec.tvos.deployment_target = '10.0'
   spec.source       = { :git => 'https://github.com/moraisandre/SwiftMaskText.git', :tag => spec.version }
 
   spec.source_files = 'SwiftMaskText/Source/*.swift'
