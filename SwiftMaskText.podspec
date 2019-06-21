@@ -13,8 +13,8 @@ Pod::Spec.new do |spec|
 
   ### Why to use it?
     * Because it's simples and fast
-    * Configuration is through Settings Panel
-    * Works with Swift 4.2
+    * Configuration can be done through Settings Panel
+    * Works with Swift 5
 
   ## Mask Configuration
   ### Mask Symbols

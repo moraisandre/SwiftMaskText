@@ -1,11 +1,15 @@
 [![Release](https://img.shields.io/github/release/moraisandre/SwiftMaskText.svg)](https://github.com/moraisandre/SwiftMaskText/releases)
 [![GitHub issues](https://img.shields.io/github/issues/moraisandre/SwiftMaskText.svg)](https://github.com/moraisandre/SwiftMaskText/issues)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/moraisandre/SwiftMaskText.svg)
 [![GitHub license](https://img.shields.io/github/license/moraisandre/SwiftMaskText.svg)](https://github.com/moraisandre/SwiftMaskText/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/moraisandre/SwiftMaskText.svg)](https://github.com/moraisandre/SwiftMaskText/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/moraisandre/SwiftMaskText.svg)](https://github.com/moraisandre/SwiftMaskText/network)
+![GitHub contributors](https://img.shields.io/github/contributors/moraisandre/SwiftMaskText.svg)
 
 ![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)
-[![Pod Compatible](https://img.shields.io/badge/pod-v1.1.0-orange.svg)](https://cocoapods.org/pods/SwiftMaskText)
+![Cocoapods](https://img.shields.io/cocoapods/v/SwiftMaskText.svg)
+![Cocoapods platforms](https://img.shields.io/cocoapods/p/SwiftMaskText.svg)
+
 
 # SwiftMaskText
 Another Swift plugin that allow add mask to UITextField
@@ -14,8 +18,8 @@ Another Swift plugin that allow add mask to UITextField
 
 ### Why to use it?
   * Because it's simples and fast
-  * Configuration is through Settings Panel
-  * Works with Swift 4.2
+  * Configuration can be done through Settings Panel
+  * Works with Swift 5
 
 ## Mask Configuration
 ### Mask Symbols
