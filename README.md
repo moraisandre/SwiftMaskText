@@ -88,5 +88,13 @@ Website: [moraisandre.com/swiftmasktext](http://moraisandre.com/swiftmasktext/)
 
 E-mail: [morais@andremorais.com.br](mailto:morais@andremorais.com.br?Subject=GitHub%20doubt)
 
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_donations" />
+  <input type="hidden" name="business" value="9R26J69HKNUWN" />
+  <input type="hidden" name="currency_code" value="BRL" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+  <img alt="" border="0" src="https://www.paypal.com/en_BR/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
 ### License
 Under the [MIT license](http://www.opensource.org/licenses/MIT).
